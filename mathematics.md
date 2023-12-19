@@ -1,7 +1,7 @@
 <p style = 'text-align: center;'>
-    Let $f(z)$ be a function of $z \in \mathbb{C}$.<br />
-    Let there exist a curve denoted $C \subset \mathbb{C}$, such that there exists a continuous range of values $\lambda \in [\alpha, \beta]$ with $\alpha,\beta \in \mathbb{R}$ such that $C$ is described as below:<br />
-    $z = \sigma + i\tau \in C, \sigma = f(\lambda), \tau = g(\lambda)$<br /><br />
+    Let $f(z)$ be a function of $z \in \textup{dom}(f)$ with $\textup{dom}(f) \subset \mathbb{C}$.<br />
+    Let there exist a curve denoted $C \subset \mathbb{C}$, such that there exists a parameter $\lambda \in [\alpha, \beta]$ with $\alpha,\beta \in \mathbb{R} \cup \\\{ -\infty, \infty \\\}$ such that $C$ is described as below:<br />
+    $s = \sigma + i\tau \in C, \sigma = f(\lambda), \tau = g(\lambda)$<br /><br />
     If $C$ is closed over $\mathbb{C}$, let there exist an integral $I_c$ defined as below:<br />
     $\Huge I_c = \oint_C f(z) dz$<br /><br />
     If $C$ is not a closed contour over $\mathbb{C}$, let there exist an integral $I_o$ defined as below:<br />
