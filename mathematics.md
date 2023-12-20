@@ -21,4 +21,8 @@
     $$\large \oint_C |f|e^{i \theta}\ dz = \oint_C |\bar{f}| \textup{cos}(\theta)\ dz + i \oint_C |\bar{f}| \textup{sin}(\theta)\ dz$$
     Now, let $\bar{f} \cong \vec{v}$, where the function $\bar{f}$ is characterised under the action of the vector field $\vec{v}$:
     $$\large \therefore \oint_C f(z)\ dz = \oint_C \left(\vec{v} \cdot \vec{T} \right)\ dz + i \oint_C \left(\vec{v} \cdot \hat{n} \right)\ dz$$
+    Thus, the action of the Pólya vector field on a contour can determine the value of a complex line integral, as a real/imaginary composition of the work done by $\vec{v}$ on $C$ and the flux of $\vec{v}$ over $C$.<br />
+</p>
+<p align = 'right'>
+    $\blacksquare$
 </p>
