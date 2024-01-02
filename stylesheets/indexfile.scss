@@ -1,0 +1,11 @@
+$inactive_font: 'Chakra Petch', Tahoma;
+$active_font: 'Trebuchet MS';
+
+* {
+    font-family: inactive_font;
+    text-align: center;
+}
+
+input {
+    font-family: active_font;
+}
